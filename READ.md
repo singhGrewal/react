@@ -11,3 +11,8 @@ npm install -g gulp
 npm install --save gulp gulp-live-server
 
 npm install --save browser-sync
+
+npm install --save react
+bower install --save react
+npm install -g react-tools
+
