@@ -1,0 +1,18 @@
+{
+  "name": "react",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Tejveer <tejveer.pro@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/singhGrewal/react",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
