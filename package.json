@@ -18,10 +18,13 @@
   "homepage": "https://github.com/singhGrewal/react#readme",
   "dependencies": {
     "browser-sync": "^2.11.0",
+    "browserify": "^13.0.0",
     "ejs": "^2.3.4",
     "express": "^4.13.3",
     "gulp": "^3.9.0",
     "gulp-live-server": "0.0.29",
-    "react": "^0.14.6"
+    "react": "^0.14.6",
+    "reactify": "^1.1.1",
+    "vinyl-source-stream": "^1.1.0"
   }
 }

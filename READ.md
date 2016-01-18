@@ -16,3 +16,7 @@ npm install --save react
 bower install --save react
 npm install -g react-tools
 
+sudo npm install -g browseify
+npm install --save reactify browseify
+
+npm install --save vinyl-source-stream
