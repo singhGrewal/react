@@ -14,7 +14,7 @@ gulp.task('live-server',function(){
 gulp.task('bundle',function(){
     return browserify({
         entries:'app/main.jsx',
-        degug:true,
+        debug:true,
     })
         .transform(reactify)
         .bundle()
@@ -23,7 +23,7 @@ gulp.task('bundle',function(){
 })
 
 
-gulp.task('serve',['live-server'],function(){
+gulp.task('serve',['bundle','live-server'],function(){
     browserSync.init(null,{
         proxy:"http://localhost:7777",
         port:9001
